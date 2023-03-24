@@ -1,0 +1,30 @@
+*,
+*:active,
+*:focus,
+*:hover,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primary-cyan: hsl(158, 36%, 37%);
+    --clr-primary-cream: hsl(30, 38%, 92%);
+
+    --clr-neutral-vdb: hsl(212, 21%, 14%);
+    --clr-neutral-dgb: hsl(228, 12%, 48%);
+    --clr-neutral-white: hsl(0, 0%, 100%);
+
+    --font-size-para: 14px;
+    --font-family-1: 'Fraunces', serif;
+    --font-family-2: 'Montserrat', sans-serif;
+
+    --padding-small: 1rem;
+    --padding-large: 2.5rem;
+    --margin-small: 1rem;
+    --margin-large: 2.5rem;
+}
