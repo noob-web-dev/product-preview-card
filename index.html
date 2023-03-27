@@ -10,11 +10,11 @@
       href="./images/favicon-32x32.png"
     />
     <title>Frontend Mentor | Product preview card component</title>
+
     <!-- stylesheet -->
-
     <link rel="stylesheet" href="style.css" />
-    <!-- google fonts -->
 
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,23 +24,36 @@
   </head>
 
   <body>
-    <main class="preview__card">
-      <section class="card__imageContainer"></section>
-      <section class="card__contentContainer">
-        <h1>Preview</h1>
-        <div class="product">
-          <h2 class="product__name">Gabrielle Essence Eau De Parfum</h2>
-          <p class="product__description">
+    <main>
+      <article class="product__">
+        <picture>
+          <!-- source  -->
+          <source
+            class="product__image"
+            srcset="./images/image-product-desktop.jpg"
+            type="image/jpg"
+            media="(min-width:600px)"
+          />
+          <!-- alternate img -->
+          <img class="product__image" src="./images/image-product-mobile.jpg" />
+        </picture>
+
+        <section class="section">
+          <p class="perfume">PERFUME</p>
+          <h1 class="product__title">Gabrielle Essence Eau De Parfum</h1>
+          <p class="description">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
-        </div>
-        <div class="price">
-          <span class="price__discounted"> $149.99 </span>
-          <span class="price__original"> $169.99 </span>
-        </div>
-        <button class="btn">Add to Cart</button>
-      </section>
+          <div class="tag">
+            <span class="price">$149.99 </span>
+            <span class="price__og">$169.99 </span>
+          </div>
+          <button class="btn">
+            <img src="./images/icon-cart.svg" alt="" /> <span>Add to Cart</span>
+          </button>
+        </section>
+      </article>
     </main>
   </body>
 </html>
