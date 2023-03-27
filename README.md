@@ -11,8 +11,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/noob-web-dev/product-preview-card)
-- Live Site URL: [Add live site URL here](https://noob-web-dev.github.io/product-preview-card/)
+- Live Site URL: [solution](https://noob-web-dev.github.io/product-preview-card/)
 
 ## My process
 
@@ -26,4 +25,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/noob-web-dev)
+- Frontend Mentor - [@noob-web-dev](https://www.frontendmentor.io/profile/noob-web-dev)
